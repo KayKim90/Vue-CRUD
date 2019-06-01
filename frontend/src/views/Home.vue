@@ -1,14 +1,7 @@
 <template>
-  <v-container>
-    <v-layout
-      text-xs-center
-      wrap
-    >
-     <h1>temptemp</h1>
-
-     
-    </v-layout>
-  </v-container>
+<div class="home">
+  <h1>Home</h1>
+</div>
 </template>
 
 <script>

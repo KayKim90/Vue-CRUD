@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import UserIndex from '@/components/UserIndex'
-import UserView from '@/components/UserView'
+import Home from '@/views/Home'
+import UserIndex from '@/views/UserIndex'
+import UserView from '@/views/UserView'
 Vue.use(Router)
 
 export default new Router({
@@ -10,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'home',
+      component: Home
     },
     {
       path: '/user', // frontend 웹 주소
@@ -20,7 +20,7 @@ export default new Router({
     },
     {
       path: '/user/:id',
-      name: 'UserView',
+      name: 'userView',
       component: UserView
     }
   ]

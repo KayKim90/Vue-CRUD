@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="userView">
     <h1>User details</h1>
     <strong v-for="user in users" :key="user.id">{{user.name}},{{user.age}}</strong>
   </div>

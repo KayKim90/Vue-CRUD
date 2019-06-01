@@ -1,5 +1,29 @@
 
 <template>
+<v-app class="grey -lighten-4">
+  <Navbar />
+  <v-content>
+    <router-view></router-view>
+  </v-content>
+</v-app>
+
+</template>
+<script>
+import Navbar from '@/components/Navbar'
+export default {
+  name: 'App',
+  components: { Navbar } ,
+  data () {
+    return {
+      //
+    }
+  }
+}
+</script>
+
+
+<!-- 수정 3
+<template>
 <div id='app'>
   <router-view/>
 </div>
@@ -14,7 +38,7 @@ export default {
   }
 }
 </script>
-
+-->
 <!-- 수정 2
 <template>
 <div id='app'>
