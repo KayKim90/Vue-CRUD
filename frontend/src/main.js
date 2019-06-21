@@ -7,6 +7,8 @@ import router from './router'
 import axios from 'axios'
 import vuetify from 'vuetify' // new 추가
 import 'vuetify/dist/vuetify.min.css' // new 추가 Ensure you are using css-loader
+// import 'bootstrap'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axios
